@@ -7,7 +7,7 @@
     align-items: center;
     border-radius: 40px;
     background: rgba(0, 0, 0, 0.60);
-    padding: 4px 40px;
+    padding: 10px 40px;
 
     &__logo {}
 
@@ -16,6 +16,18 @@
       align-items: center;
       gap: 40px;
 
+      a {
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+      }
+
+      .active {
+        border-bottom: 2px solid #FF7C3B;
+      }
     }
 
     &__btn {
