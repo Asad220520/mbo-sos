@@ -9,3 +9,6 @@ a {
 li {
   list-style: none;
 }
+button{
+  cursor: pointer;
+}
