@@ -1,0 +1,27 @@
+#header {
+  padding-top: 40px;
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 40px;
+    background: rgba(0, 0, 0, 0.60);
+    padding: 4px 40px;
+
+    &__logo {}
+
+    &__nav {
+      display: flex;
+      align-items: center;
+      gap: 40px;
+
+    }
+
+    &__btn {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+  }
+}
