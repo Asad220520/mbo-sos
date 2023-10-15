@@ -1,0 +1,82 @@
+#home {
+  position: relative;
+
+  svg {
+
+
+    path {
+      .first-path {
+        stroke: black;
+        fill: transparent;
+        transition: stroke 0.3s, fill 0.3s;
+      }
+
+      .second-path {
+        stroke: black;
+        fill: transparent;
+        transition: stroke 0.3s, fill 0.3s;
+      }
+
+      .first-path:hover {
+        stroke: red;
+        fill: yellow;
+      }
+
+      .second-path:hover {
+        stroke: blue;
+        fill: lightblue;
+      }
+    }
+
+  }
+
+  .kg {
+    // position: absolute;
+    // width: 100%;
+    // top: 30px;
+    // left: 0;
+    // right: 0;
+    // z-index: -1;
+
+  }
+
+  .home {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+
+    .border {
+      width: 201px;
+      height: 20px;
+      flex-shrink: 0;
+      border-radius: 100px;
+      background: #FF7C3B;
+    }
+
+    &__text {
+      padding-top: 100px;
+
+      h1 {
+        color: #FF7C3B;
+        font-family: Montserrat;
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 700;
+        letter-spacing: 1px;
+      }
+
+      p {
+        color: #000;
+        font-family: Montserrat;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+      }
+    }
+
+    .home__img {
+      display: flex;
+    }
+  }
+
+}
