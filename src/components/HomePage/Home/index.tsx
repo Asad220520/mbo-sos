@@ -228,10 +228,11 @@ const Home: React.FC = () => {
             <p>Молодёжная Благотворительная Организация в Кыргызстане</p>
             <div className="home__text-btn">
               <Link to={"/I-help"}>Хочу помочь</Link>
-              <Link to={"/valonter"}>Стать волонтёром</Link>
+              <Link className="active" to={"/valonter"}>Стать волонтёром</Link>
             </div>
           </div>
-          <div className="home__img">
+          <div className="home__img"
+          >
             <img src={home} alt="" />
           </div>
         </div>

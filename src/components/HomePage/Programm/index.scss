@@ -1,0 +1,19 @@
+#programm {
+  padding: 100px 0;
+  background: #E4E4E4;
+
+  h1 {
+    color: #FF7C3B;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  .programm {
+    display: flex;
+    overflow-x: scroll;
+  }
+}

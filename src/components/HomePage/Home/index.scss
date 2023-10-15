@@ -1,6 +1,6 @@
 #home {
   position: relative;
-
+  padding: 100px 0;
   svg {
 
 
@@ -31,12 +31,12 @@
   }
 
   .kg {
-    // position: absolute;
-    // width: 100%;
-    // top: 30px;
-    // left: 0;
-    // right: 0;
-    // z-index: -1;
+    position: absolute;
+    width: 100%;
+    top: 70px;
+    left: 0;
+    right: 0;
+    z-index: -1;
 
   }
 
@@ -72,10 +72,46 @@
         font-style: normal;
         font-weight: 500;
       }
+
+      &-btn {
+        display: flex;
+        gap: 20px;
+
+        a {
+          color: #FFF;
+          font-family: Montserrat;
+          font-size: 24px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+          letter-spacing: 1px;
+          border-radius: 30px;
+          background: #FF7C3B;
+          padding: 14px 40px;
+        }
+
+        .active {
+          color: #FF7C3B;
+          font-family: Montserrat;
+          font-size: 24px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+          letter-spacing: 1px;
+          border-radius: 30px;
+          padding: 14px 40px;
+          border: 2px solid #FF7C3B;
+          background: none;
+        }
+      }
     }
 
     .home__img {
       display: flex;
+
+      img {
+        border-radius: 50%;
+      }
     }
   }
 
