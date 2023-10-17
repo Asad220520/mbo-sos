@@ -1,7 +1,10 @@
 #fond {
   background: url("../../../img/image\ 12.png"), lightgray 50% / cover no-repeat;
   background-repeat: no-repeat;
-  min-height: 500px;
+  background-size: cover;
+  width: 100%;
+  min-height: 650px;
+  object-fit: cover;
   .fond {
     display: flex;
     flex-direction: column;

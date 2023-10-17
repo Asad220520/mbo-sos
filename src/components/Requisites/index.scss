@@ -1,0 +1,94 @@
+.wrapperreg {
+  padding-top: 660px;
+
+  #bank {
+    padding: 100px 0;
+    background: #000;
+
+    .bank {
+      display: flex;
+      justify-content: space-between;
+
+      &__reg {
+
+        &-img {
+          display: flex;
+          align-items: center;
+          gap: 20px;
+
+          h3 {
+            color: #FFF;
+            font-family: Montserrat;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            letter-spacing: 2.001px;
+
+            span {
+              color: #FF7C3B;
+              font-family: Montserrat;
+              font-size: 24px;
+              font-style: normal;
+              font-weight: 500;
+              line-height: normal;
+              letter-spacing: 2.001px;
+            }
+          }
+        }
+      }
+    }
+
+  }
+
+}
+
+#requisites {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: block;
+  z-index: -1;
+  background-image: url('../../img/regusit.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+
+  img {}
+
+  .requisites {
+    padding-top: 250px;
+
+    h1 {
+      color: #FFF;
+      text-align: center;
+      font-family: Montserrat;
+      font-size: 36px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 130%;
+
+      span {
+        color: #FF7C3B;
+        font-family: Montserrat;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 130%;
+      }
+    }
+
+    h2 {
+      color: #FF7C3B;
+      font-family: Montserrat;
+      font-size: 64px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      letter-spacing: 1px;
+      text-align: center;
+    }
+
+    p {}
+  }
+}

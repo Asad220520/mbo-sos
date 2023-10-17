@@ -1,18 +1,27 @@
-import { Link } from "react-router-dom";
+import React from "react";
+import { NavLink } from "react-router-dom";
 import "./index.scss";
+
 const Footer = () => {
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <div id="footer">
       <div className="container">
         <div className="footer">
           <h2>© 2023 SOS</h2>
           <div className="footer__footer-nav">
-            <Link to={"/"}>Главная</Link>
-            <Link to={"/"}>Галерея</Link>
-            <Link to={"/"}>Реквизиты</Link>
-            <Link to={"/"}>О Фонде</Link>
+            <NavLink to={"/"}>Главная</NavLink>
+            <NavLink to={"/gallery"}>Галерея</NavLink>
+            <NavLink to={"/requisites"}>Реквизиты</NavLink>
+            <NavLink to={"/aboutFound"}>О Фонде</NavLink>
           </div>
-          <button>
+          <button onClick={scrollToTop}>
             НАВЕРХ
             <svg
               xmlns="http://www.w3.org/2000/svg"

@@ -1,4 +1,3 @@
-import fond from "../../../img/image 12.png";
 import "./index.scss";
 const Fond = () => {
   return (
