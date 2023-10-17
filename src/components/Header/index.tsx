@@ -5,6 +5,8 @@ import tiktok from "../../icons/tiktok.svg";
 import whatsapp from "../../icons/whatsapp.svg";
 import "./index.scss";
 const Header = () => {
+  // npm install react-modal
+  
   return (
     <div id="header">
       <div className="container">
@@ -16,19 +18,27 @@ const Header = () => {
           </div>
           <nav className="header__nav">
             <NavLink to={"/"}>Главная</NavLink>
-            <NavLink to={"/"}>Галерея</NavLink>
-            <NavLink to={"/"}>Реквизиты</NavLink>
-            <NavLink to={"/"}>О Фонде</NavLink>
+            <NavLink to={"/gallery"}>Галерея</NavLink>
+            <NavLink to={"/requisites"}>Реквизиты</NavLink>
+            <NavLink to={"/aboutFound"}>О Фонде</NavLink>
           </nav>
           <div className="header__btn">
-            <NavLink to={"/"}>
+            <NavLink
+              target="___blank"
+              to={"https://www.instagram.com/volonter.kg/"}
+            >
               <img src={insta} alt="" />
             </NavLink>
-            <NavLink to={"/"}>
+            <NavLink target="___blank" to={"https://www.tiktok.com/@mbo.sos"}>
               {" "}
               <img src={tiktok} alt="" />
             </NavLink>
-            <NavLink to={"/"}>
+            <NavLink
+              target="___blank"
+              to={
+                "https://api.whatsapp.com/send/?phone=996552221112&text&type=phone_number&app_absent=0"
+              }
+            >
               <img src={whatsapp} alt="" />
             </NavLink>
           </div>

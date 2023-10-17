@@ -1,47 +1,51 @@
-#footer{
+#footer {
   background: #111;
-  .footer{
+
+  .footer {
     padding: 40px 0 71px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    h2{
-color: #FFF;
-  font-family: Montserrat;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
+
+    h2 {
+      color: #FFF;
+      font-family: Montserrat;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
     }
-    &__footer-nav{
+
+    &__footer-nav {
       display: flex;
       gap: 40px;
-      a{
-color: #FFF;
-  font-family: Montserrat;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  transition: .4s;
-    border-bottom: 2px solid #000000;
-  &:hover{
-    border-bottom: 2px solid #FF7C3B;
-  }
+
+      a {
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+      }
+
+      .active {
+        border-bottom: 2px solid #FF7C3B;
       }
     }
-    button{
-color: #FFF;
-  text-align: right;
-  font-family: Montserrat;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  background: none;
-  display: flex;
-  align-items:center;
-  gap: 10px;
+
+    button {
+      color: #FFF;
+      text-align: right;
+      font-family: Montserrat;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      background: none;
+      display: flex;
+      align-items: center;
+      gap: 10px;
     }
   }
 }

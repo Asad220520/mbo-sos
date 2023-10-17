@@ -1,3 +1,4 @@
+import jal from "./img/Jalal-Abad.png";
 export const data = [
   {
     id: 1,
@@ -6,8 +7,7 @@ export const data = [
     price: 4000,
     countInStock: 2,
     rating: 4,
-    image:
-      "https://a.lmcdn.ru/img600x866/M/P/MP002XW050MQ_13147420_1_v1_2x.jpeg",
+    image: jal,
   },
 
   {

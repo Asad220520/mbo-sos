@@ -6,6 +6,10 @@ import jalalabad from "../../../img/Jalal-Abad.png";
 const Home: React.FC = () => {
   const [hovered, setHovered] = useState(false);
   const navig = useNavigate();
+  const [isZoomed, setIsZoomed] = useState(false);
+
+  const toggleZoom = () => setIsZoomed(!isZoomed);
+
   return (
     <div id="home">
       <div className="container">
@@ -228,12 +232,13 @@ const Home: React.FC = () => {
             <p>Молодёжная Благотворительная Организация в Кыргызстане</p>
             <div className="home__text-btn">
               <Link to={"/I-help"}>Хочу помочь</Link>
-              <Link className="active" to={"/valonter"}>Стать волонтёром</Link>
+              <Link className="active" to={"/valonter"}>
+                Стать волонтёром
+              </Link>
             </div>
           </div>
-          <div className="home__img"
-          >
-            <img src={home} alt="" />
+          <div className={`home__img ${isZoomed ? "zoomed" : ""}`}>
+            <img onClick={toggleZoom} src={home} alt="" />
           </div>
         </div>
       </div>
