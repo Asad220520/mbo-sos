@@ -40,8 +40,39 @@ const Help = () => {
             </div>
           </div>
         </div>
+        <div className="help-block">
+        <div className="help-block2">
+            <div  className="btn-99">
+              
+             <div className="btn-100">
+              <button>100c</button>
+            <button>500c</button>
+            <button>1000c</button>
+            <button>Другая сума</button>
+            </div>
+              <h3>Оплата через карту <span>VISA </span>или <span>ЭЛКАРТ</span>
+                |
+                <span>Другие виды оплаты</span></h3>
+            </div>
+
+
+            <div className="btn-200">
+              <button>Я хочу помочь!</button>
+              <p>“нажимая кнопку вы соглашайетесь с условиями <br/>оферты и даете согласие на обработку <br/>персональных данных”</p>
+            </div>
+
+
+          </div>
+          </div>
+
+
+
+
+
+          
+        </div>
       </div>
-    </div>
+   
   );
 };
 

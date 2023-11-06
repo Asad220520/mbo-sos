@@ -1,3 +1,5 @@
+import Fondom from "../Fond/fond";
+import Puzl from "../Puzl/puzl";
 import AboutUs from "./AboutUs";
 import Fond from "./Fond";
 import Help from "./Help";
@@ -10,8 +12,11 @@ const HomePage = () => {
       <Home />
       <Fond />
       <Programm />
+      <Puzl/>
       <AboutUs />
       <Help />
+      <Fondom/>
+
     </div>
   );
 };

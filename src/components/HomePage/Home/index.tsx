@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import "./index.scss";
-import home from "../../../img/home.png";
+import home from "../../../img/Group 2.png";
 import jalalabad from "../../../img/Jalal-Abad.png";
 const Home: React.FC = () => {
   const [hovered, setHovered] = useState(false);

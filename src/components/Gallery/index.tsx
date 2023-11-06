@@ -7,6 +7,7 @@ import gl2 from "../../img/gl2.png";
 import gl3 from "../../img/gl3.png";
 import ten1 from "../../img/ten1.jpg";
 import Programm from "../HomePage/Programm";
+import Puzl from "../Puzl/puzl";
 const Gallery = () => {
   const [hovered, setHovered] = useState(false);
   const navig = useNavigate();
