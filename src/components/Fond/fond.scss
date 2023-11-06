@@ -1,0 +1,196 @@
+#fondom {
+  background: url("../../img/image\ 16.png")center/cover no-repeat;
+  padding: 100px 0 ;
+}
+.fondom h1{
+  font-family: "Montserrat",sans-serif;
+font-size: 48px;
+font-weight: 500;
+line-height: 59px;
+letter-spacing: 0em;
+text-align: center;
+color: #FF7C3B;
+padding: 20px 0 100px 0 ;
+}
+.fondom-big{
+ display: flex;
+ align-items: center;
+ justify-content: flex-start;
+ gap: 150px;
+ text-align: center;
+}
+.fondom-block h2{
+font-family: "Montserrat",sans-serif;
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0em;
+color: #000000;
+}
+.fondom-block p{
+  font-family: Open Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+color: #FF7C3B;
+
+}
+.wifi{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  // text-align: center;
+  gap: 20px;
+  margin-left: 80px;
+}
+.otchet h1{
+  font-family:" Montserrat",sans-serif;
+font-size: 48px;
+font-weight: 500;
+line-height: 59px;
+letter-spacing: 0em;
+text-align: center;
+color: #FF7C3B;
+
+}
+.otchet p{
+  font-family: "Open" ,sans-serif;
+font-size: 20px;
+font-weight: 400;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: center;
+color: #000000;
+margin: 10px 0 40px 0 ;
+
+}
+.otchet-block h5{
+font-family: "Montserrat",sans-serif;
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0em;
+// text-align: center;
+color: #000000;
+
+}
+.otchet-block h6{
+font-family: "Open Sans",sans-serif;
+font-size: 20px;
+font-weight: 400;
+line-height: 27px;
+letter-spacing: 0em;
+// text-align: center;
+color: #FF7C3B;
+
+}
+.otchet button {
+  font-family: "Montserrat",sans-serif;
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: left;
+background: #FF7C3B;
+color: aliceblue;
+padding: 10px 40px ;
+border: none;
+border-radius: 20px ;
+margin-left: 510px;
+
+}
+#otchet{
+  padding: 40px 0 ;
+}
+.big-otchet{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  gap: 200px;
+  // margin: 40px 0 ;
+  margin-top: 100px;
+}
+.karta{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 300px;
+  padding: 50px 0 ;
+}
+.karta-title h1 {
+font-family: "Montserrat",sans-serif;
+font-size: 40px;
+font-weight: 500;
+line-height: 49px;
+letter-spacing: 0em;
+text-align: center;
+color: #FF7C3B;
+
+}
+.karta-title h2{
+  font-family: "Montserrat",sans-serif;
+font-size: 20px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color: #000000;
+
+}
+.karta-title h3{
+  font-family: "Montserrat",sans-serif;
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: left;
+color: #000000;
+
+}
+.karta-icon {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 40px;
+}
+.what{
+  color: green;
+  font-size: 24px;
+}
+.tel{
+  color: white;
+  background:rgb(120, 154, 237) ;
+  border-radius: 50%;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.inst{
+  color: darkmagenta;
+    font-size: 24px;
+
+}
+#partner{
+  background: #FF7C3B;
+  padding: 40px 0 ;
+  position: relative;
+}
+.partner h1{
+  font-family:" Mistral",sans-serif;
+font-size: 96px;
+font-weight: 400;
+line-height: 96px;
+letter-spacing: 0em;
+position: absolute;
+text-align: center;
+z-index: 2;
+margin-top: -880px;
+color: #FF7C3B;
+margin-left: 400px;
+
+
+
+}
