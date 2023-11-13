@@ -7,3 +7,7 @@ export interface Itype {
   rating: number;
   image: string;
 }
+
+declare module "aos" {
+  export function init(): void;
+}

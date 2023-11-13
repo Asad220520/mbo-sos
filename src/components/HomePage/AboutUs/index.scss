@@ -4,7 +4,7 @@
 
     &__title {
       h1 {
-        color: #FF7C3B;
+        color: #ff7c3b;
         text-align: center;
         font-family: Montserrat;
         font-size: 36px;
@@ -48,14 +48,14 @@
           height: 300px;
           position: absolute;
           top: 0;
-          background-color: rgba(255, 124, 59, 0.50);
+          background-color: rgba(255, 124, 59, 0.5);
         }
 
         span {
           position: absolute;
           top: 20px;
           right: 20px;
-          color: #FFF;
+          color: #fff;
           font-family: Montserrat;
           font-size: 16px;
           font-style: normal;
@@ -67,15 +67,30 @@
           position: absolute;
           top: 40%;
           left: 5%;
-          color: #FFF;
+          color: #fff;
           font-family: Montserrat;
-          font-size: 20px;
+          font-size: 18px;
           font-style: normal;
           font-weight: 500;
           line-height: normal;
-          width: 400px;
+          width: 90%;
         }
       }
     }
+  }
+}
+
+@media screen and (max-width: 1040px) {
+  #aboutUs .aboutUs__img-img p {
+    font-size: 14px;
+  }
+  #aboutUs .aboutUs__img-img {
+    position: relative;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 650px) {
+  #aboutUs .aboutUs__img {
+    flex-wrap: wrap;
   }
 }

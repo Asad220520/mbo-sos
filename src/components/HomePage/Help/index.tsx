@@ -2,6 +2,7 @@ import "./index.scss";
 import help1 from "../../../img/help1.png";
 import help2 from "../../../img/help2.png";
 import help3 from "../../../img/help3.png";
+import { Link } from "react-router-dom";
 const Help = () => {
   return (
     <div id="help">
@@ -41,38 +42,34 @@ const Help = () => {
           </div>
         </div>
         <div className="help-block">
-        <div className="help-block2">
-            <div  className="btn-99">
-              
-             <div className="btn-100">
-              <button>100c</button>
-            <button>500c</button>
-            <button>1000c</button>
-            <button>Другая сума</button>
+          <div className="help-block2">
+            <div className="btn-99">
+              <div className="btn-100">
+                <button>100c</button>
+                <button>500c</button>
+                <button>1000c</button>
+                <button>Другая сума</button>
+              </div>
+              <h3>
+                Оплата через карту <span>VISA </span>или <span>ЭЛКАРТ</span>|
+                <span>Другие виды оплаты</span>
+              </h3>
             </div>
-              <h3>Оплата через карту <span>VISA </span>или <span>ЭЛКАРТ</span>
-                |
-                <span>Другие виды оплаты</span></h3>
-            </div>
-
 
             <div className="btn-200">
-              <button>Я хочу помочь!</button>
-              <p>“нажимая кнопку вы соглашайетесь с условиями <br/>оферты и даете согласие на обработку <br/>персональных данных”</p>
+              <Link to="/requisites">
+                <button>Я хочу помочь!</button>
+              </Link>
+              <p>
+                “нажимая кнопку вы соглашайетесь с условиями <br />
+                оферты и даете согласие на обработку <br />
+                персональных данных”
+              </p>
             </div>
-
-
           </div>
-          </div>
-
-
-
-
-
-          
         </div>
       </div>
-   
+    </div>
   );
 };
 

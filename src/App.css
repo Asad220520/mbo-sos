@@ -9,6 +9,11 @@ a {
 li {
   list-style: none;
 }
-button{
+button {
   cursor: pointer;
+}
+* {
+  /* border: 1px solid green; */
+  margin: 0;
+  padding: 0;
 }

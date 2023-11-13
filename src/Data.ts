@@ -1,79 +1,46 @@
-import jal from "./img/Jalal-Abad.png";
+import slide1 from "./img/slide1.png";
+import slide from "./img/slide2.png";
+import slide3 from "./img/slide3.png";
 export const data = [
   {
     id: 1,
-    title: "Love Republic",
-    description: "Вискоза - 80%, Полиэстер - 20%",
+    title: "Благотворительные урны",
+    description:
+      "Собираем средства на установку благотворительных урн, длядеятельности фонда",
     price: 4000,
     countInStock: 2,
     rating: 4,
-    image: jal,
+    image: slide1,
   },
 
   {
     id: 2,
-    title: "The Select Moscow ",
-    description: "Вискоза - 80%, Полиэстер - 20%",
+    title: "Помощь детским домам",
+    description:
+      "Гуманитарная помощь детским домам, закуп бытовой техники,ремонт детских домов",
     price: 2300,
     countInStock: 2,
     rating: 3,
-    image: "https://a.lmcdn.ru/img600x866/M/P/MP002XW1AUK0_5586039_1_v1.jpeg",
+    image: slide,
   },
   {
     id: 3,
-    title: "A-A Awesome Apparel ",
-    description: "Вискоза - 80%, Полиэстер - 20%",
+    title: "Благотворительные урны",
+    description:
+      "Собираем средства на установку благотворительных урн, для деятельности фонда",
     price: 9000,
     countInStock: 2,
     rating: 5,
-    image:
-      "https://a.lmcdn.ru/img600x866/M/P/MP002XW0472M_12786127_1_v1_2x.jpg",
+    image: slide3,
   },
   {
-    id: 4,
-    title: "Jolifashn",
-    description: "Вискоза - 80%, Полиэстер - 20%",
-    price: 5000,
-    countInStock: 2,
-    rating: 2,
-    image: "https://a.lmcdn.ru/img600x866/M/P/MP002XW14IKP_10702601_1_v1.jpeg",
-  },
-  {
-    id: 5,
-    title: "Jolifashn",
-    description: "Вискоза - 80%, Полиэстер - 20%",
-    price: 5000,
-    countInStock: 2,
-    rating: 1,
-    image: "https://a.lmcdn.ru/img600x866/M/P/MP002XW14IKP_10702601_1_v1.jpeg",
-  },
-  {
-    id: 6,
-    title: "Jolifashn",
-    description: "Вискоза - 80%, Полиэстер - 20%",
-    price: 5000,
-    countInStock: 2,
-    rating: 3,
-    image: "https://a.lmcdn.ru/img600x866/M/P/MP002XW14IKP_10702601_1_v1.jpeg",
-  },
-  {
-    id: 7,
-    title: "Love Republic",
-    description: "Вискоза - 80%, Полиэстер - 20%",
+    id: 1,
+    title: "Благотворительные урны",
+    description:
+      "Собираем средства на установку благотворительных урн, длядеятельности фонда",
     price: 4000,
     countInStock: 2,
     rating: 4,
-    image:
-      "https://a.lmcdn.ru/img600x866/M/P/MP002XW050MQ_13147420_1_v1_2x.jpeg",
-  },
-  {
-    id: 8,
-    title: "Love Republic",
-    description: "Вискоза - 80%, Полиэстер - 20%",
-    price: 4000,
-    countInStock: 2,
-    rating: 4,
-    image:
-      "https://a.lmcdn.ru/img600x866/M/P/MP002XW050MQ_13147420_1_v1_2x.jpeg",
+    image: slide1,
   },
 ];

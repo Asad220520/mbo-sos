@@ -3,6 +3,7 @@ import { Link, useNavigate } from "react-router-dom";
 import "./index.scss";
 import home from "../../../img/Group 2.png";
 import jalalabad from "../../../img/Jalal-Abad.png";
+import "../../HomePage/Home/adaptation.scss";
 const Home: React.FC = () => {
   const [hovered, setHovered] = useState(false);
   const navig = useNavigate();
@@ -11,7 +12,7 @@ const Home: React.FC = () => {
   const toggleZoom = () => setIsZoomed(!isZoomed);
 
   return (
-    <div id="home">
+    <div id="home" data-aos="fade-down">
       <div className="container">
         <svg
           className="kg"
@@ -231,14 +232,26 @@ const Home: React.FC = () => {
             </h1>
             <p>Молодёжная Благотворительная Организация в Кыргызстане</p>
             <div className="home__text-btn">
-              <Link to={"/I-help"}>Хочу помочь</Link>
-              <Link className="active" to={"/valonter"}>
+              <Link to={"/requisites"}>Хочу помочь</Link>
+              <Link
+                className="active"
+                to={
+                  "https://api.whatsapp.com/send/?phone=996703484846&text&type=phone_number&app_absent=0"
+                }
+              >
                 Стать волонтёром
               </Link>
             </div>
           </div>
           <div className={`home__img ${isZoomed ? "zoomed" : ""}`}>
-            <img onClick={toggleZoom} src={home} alt="" />
+            <img
+              style={{
+                width: "100%",
+              }}
+              onClick={toggleZoom}
+              src={home}
+              alt=""
+            />
           </div>
         </div>
       </div>
