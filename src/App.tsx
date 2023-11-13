@@ -6,6 +6,10 @@ import Gallery from "./components/Gallery";
 import Requisites from "./components/Requisites";
 import AboutFound from "./components/AboutFound";
 import HomePage from "./components/HomePage";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+AOS.init();
 
 function App() {
   return (

@@ -8,7 +8,7 @@
     justify-content: space-between;
 
     h2 {
-      color: #FFF;
+      color: #fff;
       font-family: Montserrat;
       font-size: 24px;
       font-style: normal;
@@ -21,7 +21,7 @@
       gap: 40px;
 
       a {
-        color: #FFF;
+        color: #fff;
         font-family: Montserrat;
         font-size: 20px;
         font-style: normal;
@@ -30,12 +30,12 @@
       }
 
       .active {
-        border-bottom: 2px solid #FF7C3B;
+        border-bottom: 2px solid #ff7c3b;
       }
     }
 
     button {
-      color: #FFF;
+      color: #fff;
       text-align: right;
       font-family: Montserrat;
       font-size: 24px;
@@ -47,5 +47,11 @@
       align-items: center;
       gap: 10px;
     }
+  }
+}
+
+@media screen and (max-width: 740px) {
+  #footer .footer__footer-nav {
+    display: none;
   }
 }

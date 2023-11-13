@@ -5,22 +5,19 @@ import Fond from "./Fond";
 import Help from "./Help";
 import Home from "./Home";
 import Programm from "./Programm";
+import "../HomePage/";
 const HomePage = () => {
-
   return (
     <div>
       <Home />
       <Fond />
       <Programm />
-      <Puzl/>
+      <Puzl />
       <AboutUs />
       <Help />
-      <Fondom/>
-
+      <Fondom />
     </div>
   );
 };
 
 export default HomePage;
-
-

@@ -1,5 +1,7 @@
 import "./index.scss";
 import about from "../../../img/about.png";
+import about2 from "../../../img/about2.png";
+import about3 from "../../../img/about3.png";
 const AboutUs = () => {
   return (
     <div id="aboutUs">
@@ -26,7 +28,7 @@ const AboutUs = () => {
             </div>
             <div className="aboutUs__img-img">
               <div className="img">
-                <img src={about} alt="" />
+                <img src={about2} alt="" />
               </div>
               <div className="color"></div>
               <span>21.09.2023</span>
@@ -37,7 +39,7 @@ const AboutUs = () => {
             </div>
             <div className="aboutUs__img-img">
               <div className="img">
-                <img src={about} alt="" />
+                <img src={about3} alt="" />
               </div>
               <div className="color"></div>
               <span>21.09.2023</span>
@@ -50,7 +52,7 @@ const AboutUs = () => {
           <div className="aboutUs__img">
             <div className="aboutUs__img-img">
               <div className="img">
-                <img src={about} alt="" />
+                <img src={about2} alt="" />
               </div>
               <div className="color"></div>
               <span>21.09.2023</span>
@@ -61,7 +63,7 @@ const AboutUs = () => {
             </div>
             <div className="aboutUs__img-img">
               <div className="img">
-                <img src={about} alt="" />
+                <img src={about3} alt="" />
               </div>
               <div className="color"></div>
               <span>21.09.2023</span>

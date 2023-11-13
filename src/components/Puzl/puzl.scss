@@ -1,26 +1,5 @@
-.vector1{
-  position: absolute;
-  left: 200px;
-  margin-top: 180px;
-}
-.vector{
-  position: relative;
-}
-.vector2{
-  position: absolute;
-  margin-top: 440px;
-  right: 235px;
-}.vector3{
-  position: absolute;
-  right: 485px;
-  margin-top: 190px;
-}.vector4{
-  position: absolute;
-  right: 230px;
-  z-index: -1;
-}
-.vector5{
-  position: absolute;
-  right: 800px;
-  z-index: -1;
+#puzl {
+  .puzl img {
+    width: 100%;
+  }
 }

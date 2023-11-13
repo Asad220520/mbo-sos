@@ -9,7 +9,6 @@ interface IProductCart {
 // npm install --save-dev @types/swiper
 
 const ProgrammCart: React.FC<IProductCart> = ({ el }) => {
-
   return (
     <div id="programmcart">
       <div className="container">
@@ -19,7 +18,7 @@ const ProgrammCart: React.FC<IProductCart> = ({ el }) => {
               <img src={el.image} alt="" />
               <h1>{el.title}</h1>
               <p>{el.description}</p>
-              <Link to={"/Подробнее"}>
+              <Link to={"/"}>
                 <button>Подробнее</button>
               </Link>
             </div>
